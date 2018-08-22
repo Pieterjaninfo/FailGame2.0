@@ -1,0 +1,138 @@
+15/08/2018-02:52:37 | Started up the program and loaded all the data.
+15/08/2018-02:52:46 | Quit the game.
+15/08/2018-02:58:59 | Started up the program and loaded all the data successfully.
+15/08/2018-03:00:07 | Quit the game.
+15/08/2018-03:16:39 | Started up the program and loaded all the data successfully.
+15/08/2018-03:16:47 | Quit the game.
+15/08/2018-03:17:44 | Started up the program and loaded all the data successfully.
+15/08/2018-03:17:48 | Quit the game.
+15/08/2018-03:27:29 | Started up the program and loaded all the data successfully.
+15/08/2018-03:38:22 | Quit the game.
+15/08/2018-18:56:24 | Started up the program and loaded all the data successfully.
+15/08/2018-18:56:51 | Quit the game.
+15/08/2018-19:05:53 | Started up the program and loaded all the data successfully.
+15/08/2018-19:07:16 | Quit the game.
+15/08/2018-19:14:30 | Started up the program and loaded all the data successfully.
+15/08/2018-19:14:38 | Quit the game.
+15/08/2018-19:14:58 | Started up the program and loaded all the data successfully.
+15/08/2018-19:15:16 | Quit the game.
+15/08/2018-19:15:34 | Started up the program and loaded all the data successfully.
+15/08/2018-19:15:55 | Quit the game.
+17/08/2018-18:25:54 | Started up the program and loaded all the data successfully.
+17/08/2018-18:34:44 | Quit the game.
+19/08/2018-15:53:14 | Started up the program and loaded all the data successfully.
+19/08/2018-15:53:49 | Quit the game.
+19/08/2018-16:01:19 | Started up the program and loaded all the data successfully.
+19/08/2018-16:01:25 | Quit the game.
+19/08/2018-16:01:50 | Started up the program and loaded all the data successfully.
+19/08/2018-16:02:26 | Quit the game.
+19/08/2018-16:12:20 | Started up the program and loaded all the data successfully.
+19/08/2018-16:15:01 | Quit the game.
+19/08/2018-16:17:11 | Started up the program and loaded all the data successfully.
+19/08/2018-16:17:16 | Quit the game.
+19/08/2018-16:17:41 | Started up the program and loaded all the data successfully.
+19/08/2018-16:17:52 | Quit the game.
+19/08/2018-16:18:11 | Started up the program and loaded all the data successfully.
+19/08/2018-16:18:47 | Quit the game.
+19/08/2018-16:23:45 | Started up the program and loaded all the data successfully.
+19/08/2018-16:24:51 | Started up the program and loaded all the data successfully.
+19/08/2018-16:25:08 | Quit the game.
+19/08/2018-16:25:17 | Started up the program and loaded all the data successfully.
+19/08/2018-16:25:31 | Quit the game.
+19/08/2018-16:25:38 | Started up the program and loaded all the data successfully.
+19/08/2018-16:28:20 | Quit the game.
+19/08/2018-16:28:33 | Started up the program and loaded all the data successfully.
+19/08/2018-16:28:38 | Quit the game.
+19/08/2018-16:28:57 | Started up the program and loaded all the data successfully.
+19/08/2018-16:29:07 | Started up the program and loaded all the data successfully.
+19/08/2018-16:29:14 | Quit the game.
+19/08/2018-16:41:12 | Started up the program and loaded all the data successfully.
+19/08/2018-16:41:25 | Quit the game.
+19/08/2018-16:45:43 | Started up the program and loaded all the data successfully.
+19/08/2018-16:45:54 | Quit the game.
+19/08/2018-16:46:02 | Started up the program and loaded all the data successfully.
+19/08/2018-16:46:45 | Quit the game.
+19/08/2018-16:46:57 | Started up the program and loaded all the data successfully.
+19/08/2018-16:47:07 | Quit the game.
+19/08/2018-16:52:40 | Started up the program and loaded all the data successfully.
+19/08/2018-16:52:48 | Quit the game.
+19/08/2018-16:54:11 | Started up the program and loaded all the data successfully.
+19/08/2018-16:55:31 | Quit the game.
+19/08/2018-16:57:09 | Started up the program and loaded all the data successfully.
+19/08/2018-16:57:32 | Quit the game.
+19/08/2018-17:09:45 | Started up the program and loaded all the data successfully.
+19/08/2018-17:10:03 | Quit the game.
+19/08/2018-17:12:00 | Started up the program and loaded all the data successfully.
+19/08/2018-17:12:41 | Quit the game.
+19/08/2018-17:12:50 | Started up the program and loaded all the data successfully.
+19/08/2018-17:13:42 | Quit the game.
+19/08/2018-20:30:18 | Started up the program and loaded all the data successfully.
+19/08/2018-20:30:33 | Quit the game.
+19/08/2018-20:31:06 | Started up the program and loaded all the data successfully.
+19/08/2018-20:32:34 | Quit the game.
+19/08/2018-20:33:38 | Started up the program and loaded all the data successfully.
+19/08/2018-20:33:58 | Quit the game.
+19/08/2018-20:34:57 | Started up the program and loaded all the data successfully.
+19/08/2018-20:35:08 | Quit the game.
+19/08/2018-20:35:28 | Started up the program and loaded all the data successfully.
+19/08/2018-20:35:50 | Quit the game.
+19/08/2018-20:36:16 | Started up the program and loaded all the data successfully.
+19/08/2018-20:36:39 | Quit the game.
+19/08/2018-22:51:40 | Started up the program and loaded all the data successfully.
+19/08/2018-22:55:18 | Started up the program and loaded all the data successfully.
+19/08/2018-22:55:31 | Quit the game.
+19/08/2018-22:56:58 | Started up the program and loaded all the data successfully.
+19/08/2018-22:57:20 | Quit the game.
+19/08/2018-22:57:36 | Started up the program and loaded all the data successfully.
+19/08/2018-22:57:44 | Quit the game.
+19/08/2018-22:57:49 | Started up the program and loaded all the data successfully.
+19/08/2018-22:59:05 | Quit the game.
+19/08/2018-23:04:39 | Started up the program and loaded all the data successfully.
+19/08/2018-23:04:50 | Quit the game.
+19/08/2018-23:05:42 | Started up the program and loaded all the data successfully.
+19/08/2018-23:06:09 | Started up the program and loaded all the data successfully.
+19/08/2018-23:06:22 | Quit the game.
+19/08/2018-23:06:44 | Started up the program and loaded all the data successfully.
+19/08/2018-23:07:12 | Quit the game.
+19/08/2018-23:07:27 | Started up the program and loaded all the data successfully.
+19/08/2018-23:07:33 | Quit the game.
+19/08/2018-23:08:47 | Started up the program and loaded all the data successfully.
+19/08/2018-23:09:45 | Quit the game.
+19/08/2018-23:12:52 | Started up the program and loaded all the data successfully.
+19/08/2018-23:13:09 | Quit the game.
+20/08/2018-23:46:09 | Started up the program and loaded all the data successfully.
+20/08/2018-23:49:27 | Quit the game.
+20/08/2018-23:59:50 | Started up the program and loaded all the data successfully.
+21/08/2018-00:01:10 | Started up the program and loaded all the data successfully.
+21/08/2018-00:01:40 | Started up the program and loaded all the data successfully.
+21/08/2018-00:02:23 | Quit the game.
+21/08/2018-00:03:50 | Started up the program and loaded all the data successfully.
+21/08/2018-00:04:42 | Quit the game.
+21/08/2018-00:05:09 | Started up the program and loaded all the data successfully.
+21/08/2018-00:05:40 | Quit the game.
+21/08/2018-00:05:50 | Started up the program and loaded all the data successfully.
+21/08/2018-00:06:03 | Quit the game.
+21/08/2018-00:06:12 | Started up the program and loaded all the data successfully.
+21/08/2018-00:06:19 | Quit the game.
+21/08/2018-02:32:38 | Started up the program and loaded all the data successfully.
+21/08/2018-02:32:43 | Quit the game.
+21/08/2018-02:33:14 | Started up the program and loaded all the data successfully.
+21/08/2018-02:33:29 | Quit the game.
+21/08/2018-02:33:59 | Started up the program and loaded all the data successfully.
+21/08/2018-02:34:06 | Quit the game.
+21/08/2018-02:35:34 | Started up the program and loaded all the data successfully.
+21/08/2018-02:35:54 | Quit the game.
+21/08/2018-02:37:17 | Started up the program and loaded all the data successfully.
+21/08/2018-02:37:23 | Quit the game.
+21/08/2018-02:37:37 | Started up the program and loaded all the data successfully.
+21/08/2018-02:37:43 | Quit the game.
+21/08/2018-02:39:03 | Started up the program and loaded all the data successfully.
+21/08/2018-02:39:22 | Started up the program and loaded all the data successfully.
+21/08/2018-02:41:41 | Started up the program and loaded all the data successfully.
+21/08/2018-02:43:13 | Started up the program and loaded all the data successfully.
+21/08/2018-02:45:57 | Started up the program and loaded all the data successfully.
+21/08/2018-02:47:41 | Started up the program and loaded all the data successfully.
+21/08/2018-02:50:46 | Started up the program and loaded all the data successfully.
+21/08/2018-02:51:13 | Quit the game.
+21/08/2018-02:55:14 | Started up the program and loaded all the data successfully.
+21/08/2018-02:55:27 | Quit the game.
