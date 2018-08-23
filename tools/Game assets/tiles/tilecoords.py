@@ -45,16 +45,13 @@ def get_connected(pair, current_set, main_set, visited):
     return current_set, visited
 
 
-def get_clusters(csv):
-    width = len(csv[0])
-    height = len(csv)
-    blocks = [(r, c) for r, c in itertools.product(range(height), range(width)) if (csv[r][c] == 1)]
-
+# Given a list of pairs, returns a list of all cluster pairs
+def get_clusters(blocks):
     clusters = []
     block_items = set(blocks)
     while block_items:
         cluster = get_connected(block_items.pop(), set(), block_items, set())[0]
-        clusters.append(cluster)
+        clusters.append(list(cluster))
         block_items = block_items - cluster
     return clusters
 
@@ -69,6 +66,8 @@ def get_bounds(cluster):
 
 # Checks if a given rect is a cluster
 def is_rect(cluster):
+    if len(cluster) == 0:
+        return True
     up, down, left, right = get_bounds(cluster)
 
     tl = (up, left)
@@ -78,9 +77,37 @@ def is_rect(cluster):
         for pair in cluster) and len(cluster) == (down-up+1)*(right-left+1)
 
 
-def split_cluster(cluster):
-    up, down, left, right = get_bounds(cluster)
+# Split the given cluster on <= of the given line coords on the given axis
+# if axis: 0 = on row (y-axis), 1 = on column (x-axis)
+def split_cluster(cluster, line, axis):
+    cluster_a, cluster_b = [], []
+    for pair in cluster:
+        target = cluster_a if pair[axis] <= line else cluster_b
+        target.append(pair)
+    return cluster_a, cluster_b
+
     
+def explore_split(cluster, bounds, axis):
+    valid_clusters = []
+    for line in range(*bounds):
+        new_cluster_a, new_cluster_b = split_cluster(cluster, line, axis)
+        new_clusters = [] + get_clusters(new_cluster_a) + get_clusters(new_cluster_b)
+        #print(f'clusters:\n{[sorted(c) for c in new_clusters]}')
+        if all(is_rect(c) for c in new_clusters):
+            valid_clusters.append(new_clusters)
+    return valid_clusters
+
+
+def explore_splits(cluster):
+    up, down, left, right = get_bounds(cluster)
+    print(up, down, left, right)
+    
+    hcs = explore_split(cluster, (up, down), 0)
+    vcs = explore_split(cluster, (left, right), 1)
+    
+    print(f'hcs: {hcs}\nvcs:{vcs}\nlen(hcs)={len(hcs)} - len(vcs)={len(vcs)}')
+
+
 
 # Requires: List of pairs of a cluster
 def extract_rects(cluster):
@@ -93,30 +120,28 @@ def extract_rects(cluster):
         return cluster
     else:
         print('cant find it yet')
-        while True:
-
-
-
-
-
-            if all(is_rect(c) for c in cs):
-                return cs
-
-
+        cs = []
+        if all(is_rect(c) for c in cs):
+            return cs
 
 
 if __name__ == '__main__':
     colorama.init()
     csv = read_file('map1.csv')
-    ccsv = [[0 if item == -1 else 1 for item in row] for row in csv]
-    icsv = [[(r, c) for c in range(len(csv[0]))] for r in range(len(csv))]
-    csvprint(icsv, ccsv)
-
-    clusters = [sorted(c) for c in get_clusters(ccsv)]
+    width = len(csv[0])     # columns
+    height = len(csv)       # rows
     
-    for cluster in clusters:
-        extract_rects(cluster)
+    ccsv = [[0 if item == -1 else 1 for item in row] for row in csv]  # 0/1 pairs
+    icsv = [[(r, c) for c in range(width)] for r in range(height)]    # Coord pairs
+    csvprint(icsv, ccsv)
+    
+    all_pairs = [(r, c) for r, c in itertools.product(range(height), range(width)) if (ccsv[r][c] == 1)]
+    clusters = [sorted(c) for c in get_clusters(all_pairs)]
 
+    #for cluster in clusters:
+        #extract_rects(cluster)
+    cluster = clusters[0]
+    explore_splits(cluster)
 
 
 '''
